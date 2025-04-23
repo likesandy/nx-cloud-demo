@@ -54,5 +54,6 @@
       "!{projectRoot}/.eslintrc.json"
     ],
     "sharedGlobals": []
-  }
+  },
+  "nxCloudAccessToken": "MDA5N2MxNTUtZDE1OS00ZjhiLTlkYjctMTlhM2RkYWY2MTU3fHJlYWQtd3JpdGU="
 }

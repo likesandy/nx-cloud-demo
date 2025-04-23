@@ -1,0 +1,22 @@
+{
+  "name": "pnpm-nx-monorepo",
+  "version": "1.0.0",
+  "private": true,
+  "engines": {
+    "node": ">=18.0.0",
+    "pnpm": ">=8.0.0"
+  },
+  "scripts": {
+    "build": "nx run-many --target=build",
+    "test": "nx run-many --target=test",
+    "lint": "nx run-many --target=lint",
+    "dev": "nx run-many --target=dev",
+    "graph": "nx graph"
+  },
+  "devDependencies": {
+    "@nx/js": "^18.0.0",
+    "nx": "^18.0.0",
+    "nx-cloud": "^19.1.0",
+    "typescript": "^5.2.2"
+  }
+}
